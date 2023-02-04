@@ -90,14 +90,15 @@ div.kc-logo-text span {
 }
 
 #kc-header-wrapper {
-    font-size: 29px;
+    display: none;
+    /* font-size: 29px;
     text-transform: uppercase;
     letter-spacing: 3px;
     line-height: 1.2em;
-    padding: 62px 10px 20px;
+    padding: 5px 0px 0px 0px;
     white-space: normal;
     color:#046A38;
-    font-weight: 600;
+    font-weight: 600; */
 }
 
 #kc-content {
@@ -328,6 +329,9 @@ ul#kc-totp-supported-apps {
 .kc-login-tooltip:hover .kc-tooltip-text {
     visibility: visible;
     opacity:0.7;
+}
+#kc-login{
+    width: 100%;
 }
 
 /* Arrow for tooltip */
@@ -596,3 +600,7 @@ ul#kc-totp-supported-apps {
     margin-bottom: 16px;
 }
 /* End Recovery codes */
+
+/* .login-pf-page .login-pf-page-header {
+    margin-bottom: 20px !important;
+} */
